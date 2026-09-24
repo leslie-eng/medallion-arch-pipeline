@@ -11,7 +11,7 @@
 
 
 drop table if exists bronze.olist_order_items_dataset;
-create table if not exists bronze.olist_order_items_dataset(
+create table bronze.olist_order_items_dataset(
 order_id varchar(100),
 order_item_id integer,
 product_id varchar(100),
